@@ -6,7 +6,7 @@ body {
 	padding: 0;
 	background-image: url(../images/bg1.jpg);
 	background-position: 50% 0%;
-	margin: 0;
+	margin-bottom: 0;
 }
 
 input[type='text'], input[type='password'], textarea {
@@ -73,6 +73,7 @@ button:active, input[type='submit']:active, #button:active {
 }
 
 main {
+	display: block;
 	text-align: center;
 }
 
@@ -81,19 +82,17 @@ main {
 	position: relative;
 	padding: 5px;
 	margin: 50px;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .box {
-	display: block;
-	padding: 10px;
-	max-width: 100%;
-	min-width: 300px;
-	margin-left: 10px;
-	margin-right: 10px;
 	text-align: center;
 	background-color: #ddd;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	min-width: 300px;
+	max-width: 100%;
 }
 
 .box img {
@@ -102,18 +101,11 @@ main {
 
 article {
 	display: inline-block;
-	width: 220px;
-	height: 320px;
-	border-radius: 4px;
+	width: 222px;
+	height: 310px;
+	border-radius: 15px;
 	color: #000;
 	font-size: 20px;
-	margin: 5px;
-	margin-top: 15px;
-	text-decoration: none !important;
-}
-
-article:hover {
-	box-shadow: 0 1px 20px rgba(0,0,0,0.2);
 }
 
 .info {
